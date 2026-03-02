@@ -1,0 +1,7 @@
+boxing gloves;1;50
+battery-powered skateboard;4;100
+electric piano;110;1500
+rusty mail leggings;10;2
+final weight: 120
+final value: 4150
+Total Time 0 microseconds

@@ -1,0 +1,7 @@
+12
+rusty mail leggings;1;2
+electric piano;5;150
+battery-powered skateboard;11;100
+boxing gloves;2;50
+diamond-studded boxing gloves;3;25
+grand piano;6;24

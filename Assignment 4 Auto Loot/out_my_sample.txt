@@ -1,0 +1,34 @@
+12
+rusty mail leggings;1;2
+electric piano;5;150
+battery-powered skateboard;11;100
+boxing gloves;2;50
+diamond-studded boxing gloves;3;25
+grand piano;6;24
+total item = 6
+
+row 6 , column 12, rows 7, columns 13 array_value 227
+row 5 , column 12, rows 6, columns 13 array_value 227
+item number 5 , totoal taken= 1, item name: diamond-studded boxing gloves weight 3 , Value 25 
+next row = 4, C_weight= 3 , next column= 9, next value= 202
+
+row 4 , column 9, rows 6, columns 13 array_value 202
+item number 4 , totoal taken= 2, item name: boxing gloves weight 2 , Value 50 
+next row = 3, C_weight= 2 , next column= 7, next value= 152
+
+row 3 , column 7, rows 6, columns 13 array_value 152
+row 2 , column 7, rows 5, columns 13 array_value 152
+item number 2 , totoal taken= 3, item name: electric piano weight 5 , Value 150 
+next row = 1, C_weight= 5 , next column= 2, next value= 2
+
+row 1 , column 2, rows 5, columns 13 array_value 2
+item number 1 , totoal taken= 4, item name: rusty mail leggings weight 1 , Value 2 
+next row = 0, C_weight= 1 , next column= 1, next value= 0
+
+row 0 , column 1, rows 5, columns 13 array_value 0boxing gloves;2;50
+battery-powered skateboard;11;100
+electric piano;5;150
+rusty mail leggings;1;2
+final weight: 12
+final value: 227
+Total Time 7358 microseconds
