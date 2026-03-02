@@ -1,0 +1,26 @@
+gcc -std=c11 -O2 main.c -o main.exe -lm
+
+
+
+.\main.exe < sample1.txt > output1.txt
+
+.\main.exe < sample2.txt > output2.txt
+
+.\main.exe < sample3.txt > output3.txt
+
+.\main.exe < sample4.txt > output4.txt
+
+.\main.exe < sample5.txt > output5.txt
+
+
+.\main.exe < sample6.txt > output6.txt
+
+.\main.exe < sample7.txt > output7.txt
+
+.\main.exe < sample8.txt > output8.txt
+
+.\main.exe < sample9.txt > output9.txt
+
+
+
+
