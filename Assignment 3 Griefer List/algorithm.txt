@@ -1,0 +1,80 @@
+global var:
+Highest_expected_entry= 1000000
+
+Highest_depth= calculate from Highest_expected_entry
+
+alpha= 0.75
+
+total_entered = initially 0
+Deapth_reached= 0
+
+Heritage_array= will contains the pointer equl to Highest_depth numbers
+
+
+
+
+
+
+
+main function:
+
+crete a tree with nodes only containing its values( name, server id, time) , left and right child, hit number
+
+
+change the buffer size to 16 mb
+read the file with the all inputs
+
+for each line of read:
+1st call the search_treefunction to check if it exists
+if not:
+call the tree_insert function
+if yes:
+then if the server and  or time is different increase hit of that element by one and update the server and time if they are later time
+
+
+after you reach the end of the file,
+
+now start reading the 2nd input file.
+
+for each name use the tree_search function. 
+if found write it back to the output file and if not found then also output it in the given format. 
+
+done
+
+
+
+tree insert function{
+
+
+based on total_entered find out max_depth_current
+Deapth_reached= 0
+Heritage_array= make all value zero
+
+start comparing from root and go right if you are larger or left otherwise , using the name strig.
+every time you call a child increase the value of depth reached and insert its parent in the Heritage_array
+
+if after reaching its destination create a new nose there and after inserting you found the depth has crossed the max_depth_current then call the balance_tree
+ 
+}
+
+
+balance_tree{
+call the scape_goat_find
+
+when found then call the inward_traversal function on that point. and you will get back an array
+
+then call the make_balanced_subtree function 
+}
+
+call the scape_goat_find
+find out the scapegoat element, by going up one by one using the parent list in the heritage_array.each time you go up you also need to count the total number of that level. for that you will call a count_tree_size function.
+with this you will be able to find the scapegoat at some point.
+
+count_tree_size function:
+just recurressively go left and right and return 1+ left feedback + right feedback
+
+make_balanced_subtree:
+take the median of the array . recurriisively call it self with left part of the array to put in left node and right part of the arry to put on right node
+
+
+
